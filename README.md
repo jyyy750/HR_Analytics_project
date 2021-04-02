@@ -97,10 +97,10 @@ And then I used the following models and evaluation metrics:
 &emsp;&emsp; 1. It is not sensitive to irrelevant features.  
 &emsp;&emsp; 2. It doesn’t require as much training data.  
 
-* KNN:   
-&emsp;&emsp; 1. No assumptions about data.
-&emsp;&emsp; 2. versatile - works both for regression and classification.  
-&emsp;&emsp; 3.  Quick calculation time.  
+* KNN:  
+&emsp;&emsp; 1. No assumptions about data.  
+&emsp;&emsp; 2. versatile - works both for regression and classification.    
+&emsp;&emsp; 3.  Quick calculation time.    
 
 * Random Forest:  
 &emsp;&emsp; 1. RF is a great classifier that doesn't require extensive tuning for optimal performance.  
