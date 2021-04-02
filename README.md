@@ -86,9 +86,9 @@ And then I used the following models and evaluation metrics:
 
 ### models
 * Logistic Regression: 
-&emsp;&emsp; 1. One of the most classic models for binary classification.  
-&emsp;&emsp; 2. No assumption required about the distribution of classes. 
-&emsp;&emsp; 3. fast. 
+&emsp;&emsp; 1. One of the most classic models for binary classification.    
+&emsp;&emsp; 2. No assumption required about the distribution of classes.   
+&emsp;&emsp; 3. fast.   
 
 * SVC: 
 &emsp;&emsp; 1. More efficient in high dimensional spaces like in this case.  
