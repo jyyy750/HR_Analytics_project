@@ -85,6 +85,23 @@ After feature engineering, I split the data back into train and test sets.
 And then I used the following models and evaluation metrics:
 
 ### models
+* Logistic Regression: 
+&emsp;&emsp; 1. One of the most classic models for binary classification. 
+&emsp;&emsp; 2. No assumption required about the distribution of classes.
+&emsp;&emsp; 3. fast.
+
+* SVC: 
+&emsp;&emsp; 1. More efficient in high dimensional spaces like in this case. 
+
+* Naive Bayes:
+&emsp;&emsp; 1. It is not sensitive to irrelevant features 
+&emsp;&emsp; 2. It doesn’t require as much training data
+
+* KNN: 
+&emsp;&emsp; 1. No assumptions about data.
+&emsp;&emsp; 2. versatile - works both for regression and classification.
+&emsp;&emsp; 3.  Quick calculation time
+
 * Random Forest:  
 &emsp;&emsp; 1. RF is a great classifier that doesn't require extensive tuning for optimal performance.  
 &emsp;&emsp; 2. RF doesn't need any prior assumption about the distribution of data.  
@@ -101,12 +118,9 @@ And then I used the following models and evaluation metrics:
 
 
 ### evaluation metrics
-* f1-score: a general metrics that combine recall and precision.
-* recall:used when TP is considered important.
-* precision: used when FP costs a lot(predict T but actually F)
+* accuracy_score: Measure how accurate the predicted value is.
 * AUC-ROC: area under ROC curve.
-<img src="evaluation metrics.png">
-
+* confusion_matrix: descirbe the performance of a classifcation model.
 
 
 <!-- CONTACT -->
