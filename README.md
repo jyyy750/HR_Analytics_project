@@ -108,8 +108,8 @@ After feature engineering, I nned to select algorithms/models that suit the data
 &emsp;&emsp; 4. RF runs fast.  
 
 * Gradient Boost:  
-&emsp;&emsp; 1.   
-&emsp;&emsp; 2. 
+&emsp;&emsp; 1.  Reasonal predictive accuracy.
+&emsp;&emsp; 2.  High flexibility.
 
 * XGBoost:   
 &emsp;&emsp; 1. works well on small sample sizes, as what we have in this case. Also runs fast & easy to implement.  
@@ -117,6 +117,9 @@ After feature engineering, I nned to select algorithms/models that suit the data
 
 
 ## Evaluation
+
+* Why do I change cutoff/threshold:
+    
 
 <img src = "F1.png" width = 600>
 
