@@ -34,7 +34,7 @@
 
 ### dataset
 * The dataset contains candidates' personal information, more specifically the following:  
-<img src="features.png">
+<img src="features.png" width = 800>
 
 
 ## Built With
