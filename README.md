@@ -44,9 +44,9 @@
 <img src="pre-processing.png">
 
 ## Select Evaluation Metrics  
-<img src="evaluation metrics.jpg">
-* What I would choose: F1
-* Why not these metrics?
+<img src="evaluation metrics.jpg">  
+* What I would choose: F1  
+* Why not these metrics?  
 ** Recap: Confusion matrix
 
 
