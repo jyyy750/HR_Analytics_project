@@ -119,10 +119,10 @@ After feature engineering, I nned to select algorithms/models that suit the data
 ## Evaluation
 
 * Why do I change cutoff/threshold:  
-> The defualt cutoff for probability is 0.5. It means, when the predicted probability of positive class is more than 0.5, we consider it as postive. Otherwise negative. 
-> In this case, I'm looking for a threshold that maximizes TPR and minimizs FPR. It's hard to satisfy both conditions, therefore the intermediate solution I come up with is to maximize (TPR-FPR).  
-> Here's the function that is used to calculate the optimal threshold.  
-> <img src = "find_optimal_cutoff.png" width=600>
+&nbsp;&nbsp; The defualt cutoff for probability is 0.5. It means, when the predicted probability of positive class is more than 0.5, we consider it as postive. Otherwise negative. 
+&nbsp;&nbsp; In this case, I'm looking for a threshold that maximizes TPR and minimizs FPR. It's hard to satisfy both conditions, therefore the intermediate solution I come up with is to maximize (TPR-FPR).  
+&nbsp;&nbsp; Here's the function that is used to calculate the optimal threshold.  
+&nbsp;&nbsp; <img src = "find_optimal_cutoff.png" width=600>
 
 * Result:
 <img src = "F1.png" width = 400>
