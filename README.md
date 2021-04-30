@@ -90,16 +90,16 @@
 After feature engineering, I nned to select algorithms/models that suit the dataset.
 
 ### requirements
-&emsp;&emsp; 1. Linear models might NOT be complicated enough to sufficiently describe the relationship between target & features.
-&emsp;&emsp; 2. Should be good at preventing overfitting.
-&emsp;&emsp; 3. Can handle imbalanced binary classification well.
+&emsp;&emsp; 1. Linear models might NOT be complicated enough to sufficiently describe the relationship between target & features.  
+&emsp;&emsp; 2. Should be good at preventing overfitting.  
+&emsp;&emsp; 3. Can handle imbalanced binary classification well.  
 
 
 ### models
 * KNN:  
 &emsp;&emsp; 1. No assumptions about data.  
 &emsp;&emsp; 2. versatile - works both for regression and classification.    
-&emsp;&emsp; 3.  Quick calculation time.    
+&emsp;&emsp; 3. Quick calculation time.    
 
 * Random Forest:  
 &emsp;&emsp; 1. RF is a great classifier that doesn't require extensive tuning for optimal performance.  
@@ -108,8 +108,8 @@ After feature engineering, I nned to select algorithms/models that suit the data
 &emsp;&emsp; 4. RF runs fast.  
 
 * Gradient Boost:  
-&emsp;&emsp; 1. easy to use in terms of data prepartion-no need for normalization and scaling.  
-&emsp;&emsp; 2. very intuitive, easy to explain.  
+&emsp;&emsp; 1.   
+&emsp;&emsp; 2. 
 
 * XGBoost:   
 &emsp;&emsp; 1. works well on small sample sizes, as what we have in this case. Also runs fast & easy to implement.  
@@ -118,6 +118,7 @@ After feature engineering, I nned to select algorithms/models that suit the data
 
 ## Evaluation
 
+<img src = "F1.png" width = 600>
 
 
 <!-- CONTACT -->
@@ -132,3 +133,5 @@ Project Link: [https://github.com/jyyy750/HR_Analytics_project](https://github.c
 * [README-Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md#about-the-project)
 * [Kaggle](https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists)
 * [Machine-Learning-Mastery](https://machinelearningmastery.com/framework-for-imbalanced-classification-projects/)
+* [Basic-writing-and-formatting-syntax](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
+* [Online-Latex-Equation-Editor](https://www.codecogs.com/latex/eqneditor.php)
