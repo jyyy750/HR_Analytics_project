@@ -53,14 +53,26 @@
     |      :---         |     :---:      |      ---:     |
     |       1           |       TP       |       FN      |
     |       0           |       FP       |       TN      |
+    
   - *Accuracy*
   - - acc = ![](https://latex.codecogs.com/gif.latex?%5Cfrac%7BTP&plus;TN%7D%7BTP&plus;TN&plus;FP&plus;FN%7D)
   - - Say we have an imbalanced dataset: only 25% positive class, the rest belongs to negative class.
   - - If we predict all as negative, we get an accuracy of 75%.
   - - That mean a bad classifier can have a good accuracy score in the imbalanced case.
+  
   - *ROC AUC*
   - - ROC AUC is used when we consider both classes equally important.
   - - In our case, we pay more attention to candidates who will be accepted (positive class). Two classes are not equally important.
+  
+  - *Precision*
+  - - precision = ![](https://latex.codecogs.com/gif.latex?%5Cfrac%7BTP%7D%7BTP&plus;FP%7D)
+  - - If we predict all as negative, the confusion matrix would be look like the following:
+  - - | Actual\ Predicted |       1           |       0       |
+      |      :---         |       :---:       |      ---:     |
+      |       1           |       TP = 0      |       FN      |
+      |       0           |       FP = 0      |       TN      |
+  - - precision = ![](https://latex.codecogs.com/gif.latex?%5Cfrac%7B0%7D%7B0&plus;0%7D%20%3D%201)
+  - - Again, a bad classifier would get a decent precision score. 
 
 
 
