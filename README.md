@@ -54,13 +54,13 @@
     |       1           |       TP       |       FN      |
     |       0           |       FP       |       TN      |
   - *Accuracy*
-  -  acc = ![](https://latex.codecogs.com/gif.latex?%5Cfrac%7BTP&plus;TN%7D%7BTP&plus;TN&plus;FP&plus;FN%7D)
-   - Say we have an imbalanced dataset: only 25% positive class, the rest belongs to negative class.
-   - If we predict all as negative, we get an accuracy of 75%.
-   - That mean a bad classifier can have a good accuracy score in the imbalanced case.
+  - - acc = ![](https://latex.codecogs.com/gif.latex?%5Cfrac%7BTP&plus;TN%7D%7BTP&plus;TN&plus;FP&plus;FN%7D)
+  - - Say we have an imbalanced dataset: only 25% positive class, the rest belongs to negative class.
+  - - If we predict all as negative, we get an accuracy of 75%.
+  - - That mean a bad classifier can have a good accuracy score in the imbalanced case.
   - *ROC AUC*
-   - ROC AUC is used when we consider both classes equally important.
-   - In our case, we pay more attention to candidates who will be accepted (positive class). Two classes are not equally important.
+  - - ROC AUC is used when we consider both classes equally important.
+  - - In our case, we pay more attention to candidates who will be accepted (positive class). Two classes are not equally important.
 
 
 
