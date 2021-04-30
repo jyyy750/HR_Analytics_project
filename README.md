@@ -40,19 +40,8 @@
 ## Built With
 * [Jupyter Notebook](https://jupyter.org/)
 
-
-## EDA
-I chechked value counts and distributions of some variables to have a better idea of the whole picture. Here are some examples.
-<img src="1.png" width = 300>
-<img src="2.png">
-
-
-## Feature Engineering
-First of all, I needed to transform the data so that it was usable for the future model. Here are some changes I made to the data:
-
-&emsp;&emsp; 1.encode categorical variables into numberical variables.  
-&emsp;&emsp; 2.impute missing values by KNN imputer.  
-&emsp;&emsp; 3.handle the imbalanced data(over-sample) by SMOTE.  
+## Pre Processing  
+<img src="pre-processing.png">
 
 
 ## Model Building
