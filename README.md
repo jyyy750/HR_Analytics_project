@@ -44,7 +44,7 @@
 <img src="pre-processing.png">
 
 ## Select Evaluation Metrics  
-<img src="evaluation metrics.jpg" width=200>
+<img src="evaluation metrics.jpg" width=600>
 
 - What I would choose: F1  
 - Why not these metrics?  
