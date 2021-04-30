@@ -87,22 +87,15 @@
 
 
 ## Model Building
-After feature engineering, I split the data back into train and test sets.
-And then I used the following models and evaluation metrics:
+After feature engineering, I nned to select algorithms/models that suit the dataset.
+
+### requirements
+&emsp;&emsp; 1. Linear models might NOT be complicated enough to sufficiently describe the relationship between target & features.
+&emsp;&emsp; 2. Should be good at preventing overfitting.
+&emsp;&emsp; 3. Can handle imbalanced binary classification well.
+
 
 ### models
-* Logistic Regression:  
-&emsp;&emsp; 1. One of the most classic models for binary classification.    
-&emsp;&emsp; 2. No assumption required about the distribution of classes.   
-&emsp;&emsp; 3. fast.   
-
-* SVC:  
-&emsp;&emsp; 1. More efficient in high dimensional spaces like in this case.  
-
-* Naive Bayes:  
-&emsp;&emsp; 1. It is not sensitive to irrelevant features.  
-&emsp;&emsp; 2. It doesn’t require as much training data.  
-
 * KNN:  
 &emsp;&emsp; 1. No assumptions about data.  
 &emsp;&emsp; 2. versatile - works both for regression and classification.    
@@ -114,7 +107,7 @@ And then I used the following models and evaluation metrics:
 &emsp;&emsp; 3. RF tends to have low bias.  
 &emsp;&emsp; 4. RF runs fast.  
 
-* Decision Tree:  
+* Gradient Boost:  
 &emsp;&emsp; 1. easy to use in terms of data prepartion-no need for normalization and scaling.  
 &emsp;&emsp; 2. very intuitive, easy to explain.  
 
@@ -123,7 +116,7 @@ And then I used the following models and evaluation metrics:
 &emsp;&emsp; 2. The nature of an ensemble learning algorithum(combines multiple weak learners sequentially) makes it learn more complex relationships between features& targets.  
 
 
-### evaluation metrics
+## Evaluation
 
 
 
