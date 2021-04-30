@@ -50,10 +50,11 @@
 - Why not these metrics?  
   - Recap: Confusion matrix
   - | Actual\ Predicted |       1        |       0       |
-    | :---              |     :---:      |      ---:     |
+    |      :---         |     :---:      |      ---:     |
     |       1           |       TP       |       FN      |
     |       0           |       FP       |       TN      |
-
+  - *Accuracy*
+    -acc = ![](https://latex.codecogs.com/gif.latex?%5Cfrac%7BTP&plus;TN%7D%7BTP&plus;TN&plus;FP&plus;FN%7D)
 
 
 
