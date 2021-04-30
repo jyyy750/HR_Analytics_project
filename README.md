@@ -49,6 +49,10 @@
 - What I would choose: F1  
 - Why not these metrics?  
   - Recap: Confusion matrix
+  - | Actual\ Predicted |       1        |       0       |
+    | :---              |     :---:      |      ---:     |
+    |       1           |       TP       |       FN      |
+    |       0           |       FP       |       TN      |
 
 
 
