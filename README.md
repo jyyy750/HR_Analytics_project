@@ -43,6 +43,14 @@
 ## Pre Processing  
 <img src="pre-processing.png">
 
+## Select Evaluation Metrics  
+<img src="evaluation metrics.jpg">
+* What I would choose: F1
+* Why not these metrics?
+** Recap: Confusion matrix
+
+
+
 
 ## Model Building
 After feature engineering, I split the data back into train and test sets.
