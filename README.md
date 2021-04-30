@@ -34,7 +34,7 @@
 
 ### dataset
 * The dataset contains candidates' personal information, more specifically the following:  
-<img src="features.png",width = 30>
+<img src="features.png">
 
 
 ## Built With
@@ -44,7 +44,7 @@
 <img src="pre-processing.png">
 
 ## Select Evaluation Metrics  
-<img src="evaluation metrics.jpg">  
+<img src="evaluation metrics.jpg">    
 * What I would choose: F1  
 * Why not these metrics?  
 ** Recap: Confusion matrix
