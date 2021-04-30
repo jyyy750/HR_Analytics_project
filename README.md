@@ -11,9 +11,10 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#eda">EDA</a></li>
-     <li><a href="#feature-engineering">Feature Engineering</a></li>
+    <li><a href="#pre-processing">Pre Processing</a></li>
+    <li><a href="#select-metrics">Select Evaluation Metrics</a></li>
     <li><a href="#model-building">Model Building</a></li>
+    <li><a href="#evluation">Evluation</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -22,49 +23,23 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-  A tech company is going to hire some data scientists among candidates that reach certain standard. They want to know which candidate has higher chances to pass, based on portfolios of the employees who already got in.
+  A tech company is going to hire some data scientists among candidates that reach certain standard. Based on portfolios of the employees who already got in, and portofolio of the current candidates, they want to know which candidate has higher chances to pass.
 
 ### goals
-* We have a few goals for this project:  
+* want to predict:
 
-&emsp;&emsp; 1. predict whether a candidate for a job position will be given a offer or not.
+&emsp;&emsp; 1. predict whether a candidate for a job position will be given a offer or not. In a nutshell, class Label (0/1).
 
-&emsp;&emsp; 2. interpret which features affect candidate decision.
+&emsp;&emsp; 2. predict the probability a candidate would be accepted. In other words, the probability of positive label.
 
 ### dataset
 * The dataset contains candidates' personal information, more specifically the following:  
-
-&emsp;&emsp; 1. enrollee_id : Unique ID for candidate
-
-&emsp;&emsp; 2. city: City code
-
-&emsp;&emsp; 3. city_ development _index : Developement index of the city (scaled)
-
-&emsp;&emsp; 4. gender: Gender of candidate
-
-&emsp;&emsp; 5. relevent_experience: Relevant experience of candidate
-
-&emsp;&emsp; 6. enrolled_university: Type of University course enrolled if any
-
-&emsp;&emsp; 7. education_level: Education level of candidate
-
-&emsp;&emsp; 8. major_discipline :Education major discipline of candidate
-
-&emsp;&emsp; 9. experience: Candidate total experience in years
-
-&emsp;&emsp; 10. company_size: No of employees in current employer's company
-
-&emsp;&emsp; 11. company_type : Type of current employer
-
-&emsp;&emsp; 12. lastnewjob: Difference in years between previous job and current job
-
-&emsp;&emsp; 13. training_hours: training hours completed
-
-&emsp;&emsp; 14. target: 0 – Not looking for job change, 1 – Looking for a job change
+<img src="features.png">
 
 
 ## Built With
 * [Jupyter Notebook](https://jupyter.org/)
+
 
 ## EDA
 I chechked value counts and distributions of some variables to have a better idea of the whole picture. Here are some examples.
@@ -118,9 +93,7 @@ And then I used the following models and evaluation metrics:
 
 
 ### evaluation metrics
-* accuracy_score: Measure how accurate the predicted value is.
-* AUC-ROC: area under ROC curve.
-* confusion_matrix: descirbe the performance of a classifcation model.
+
 
 
 <!-- CONTACT -->
@@ -134,3 +107,4 @@ Project Link: [https://github.com/jyyy750/HR_Analytics_project](https://github.c
 ## Acknowledgements
 * [README-Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md#about-the-project)
 * [Kaggle](https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists)
+* [Machine-Learning-Mastery](https://machinelearningmastery.com/framework-for-imbalanced-classification-projects/)
