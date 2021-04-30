@@ -108,20 +108,24 @@ After feature engineering, I nned to select algorithms/models that suit the data
 &emsp;&emsp; 4. RF runs fast.  
 
 * Gradient Boost:  
-&emsp;&emsp; 1.  Reasonal predictive accuracy.
+&emsp;&emsp; 1.  Reasonal predictive accuracy.  
 &emsp;&emsp; 2.  High flexibility.
 
 * XGBoost:   
-&emsp;&emsp; 1. works well on small sample sizes, as what we have in this case. Also runs fast & easy to implement.  
+&emsp;&emsp; 1. works well on small sample sizes, as what we have in this case. Also runs fast & easy to implement.      
 &emsp;&emsp; 2. The nature of an ensemble learning algorithum(combines multiple weak learners sequentially) makes it learn more complex relationships between features& targets.  
 
 
 ## Evaluation
 
 * Why do I change cutoff/threshold:
-    
+    The defualt cutoff for probability is 0.5. It means, when the predicted probability of positive class is more than 0.5, we consider it as postive. Otherwise negative.
+    In this case, I'm looking for a threshold that maximizes TPR and minimizs FPR. It's hard to satisfy both conditions, therefore the intermediate solution I come up with is to maximize (TPR-FPR).
+    Here's the function that is used to calculate the optimal threshold.
+    <img src = "find_optimal_cutoff.png" width=400>
 
-<img src = "F1.png" width = 600>
+* Result:
+<img src = "F1.png" width = 300>
 
 
 <!-- CONTACT -->
