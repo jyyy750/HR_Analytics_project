@@ -48,7 +48,7 @@
 
 - What I would choose: F1  
 - Why not these metrics?  
-** Recap: Confusion matrix
+  - Recap: Confusion matrix
 
 
 
