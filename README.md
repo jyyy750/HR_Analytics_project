@@ -126,6 +126,7 @@ After feature engineering, I nned to select algorithms/models that suit the data
 
 * Result:
 <img src = "F1.png" width = 400>
+XGBoostClassifier after setting optimal threshold would have the highest F1 score.
 
 
 <!-- CONTACT -->
