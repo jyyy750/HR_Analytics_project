@@ -73,6 +73,16 @@
       |       0           |       FP = 0      |       TN      |
   - - precision = ![](https://latex.codecogs.com/gif.latex?%5Cfrac%7B0%7D%7B0&plus;0%7D%20%3D%201)
   - - Again, a bad classifier would get a decent precision score. 
+  
+  - *Recall*
+  - - recall = ![](https://latex.codecogs.com/gif.latex?%5Cfrac%7BTP%7D%7BTP&plus;FN%7D)
+  - - If we predict all as positive, the confusion matrix would be look like the following:
+  - - | Actual\ Predicted |       1           |       0       |
+      |      :---         |       :---:       |      ---:     |
+      |       1           |       TP          |       FN = 0  |
+      |       0           |       FP          |       TN = 0  |
+  - - recall = ![](https://latex.codecogs.com/gif.latex?%5Cfrac%7BTP%7D%7BTP&plus;0%7D)
+  - - Again, a bad classifier would get a decent precision score
 
 
 
